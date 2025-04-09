@@ -1,0 +1,21 @@
+.menu-item:hover {
+    background-color: #f44b86;
+    color: white;
+  }
+  .menu-item{
+    margin-top: 15px;
+  }
+
+
+  .menu-item:hover img {
+    filter: brightness(0) invert(1); /* làm trắng ảnh */
+  }
+  
+
+  .menu-item img {
+    filter: grayscale(100%) brightness(0.5); /* Xám đậm ban đầu */
+    transition: filter 0.3s ease;
+  }
+  
+
+  
